@@ -1,0 +1,11 @@
+framework module DemoABFrame {
+  umbrella header "DemoABFrame.h"
+
+  export *
+  module * { export * }
+}
+
+module DemoABFrame.Swift {
+    header "DemoABFrame-Swift.h"
+    requires objc
+}
