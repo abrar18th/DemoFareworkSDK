@@ -14,7 +14,9 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "DemoFareworkSDK/DemoABFrame.framework/Header/*.h"
+
+
+  spec.source_files  = "DemoABFrame", "DemoABFrame/**/*.{h,m}"
   spec.public_header_files = "DemoABFrame.framework/Header/*.h"
   spec.vendored_frameworks = "DemoABFrame.framework"
 
