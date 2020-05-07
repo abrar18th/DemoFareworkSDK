@@ -14,11 +14,11 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "DemoABFrame.framework/Header/*.h"
-  spec.public_header_files = "DemoABFrame.framework/Header/*.h"
-  spec.vendored_frameworks = "DemoABFrame.framework"
+  spec.source_files  = "DemoFareworkSDK/DemoABFrame.framework/Header/*.h"
+  spec.public_header_files = "DemoFareworkSDK/DemoABFrame.framework/Header/*.h"
+  spec.vendored_frameworks = "DemoFareworkSDK/DemoABFrame.framework"
 
-  spec.exclude_files = "DemoABFrame/Exclude"
+  spec.exclude_files = "DemoFareworkSDK/DemoABFrame/Exclude"
   spec.ios.deployment_target = "11.0"
 
 
