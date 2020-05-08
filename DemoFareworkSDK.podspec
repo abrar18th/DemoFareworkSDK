@@ -16,12 +16,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "DemoABFrame", "DemoABFrame/**/*.{h,m}"
+  spec.source_files  = "DemoABFrame.framework/Header/*.h"
   spec.public_header_files = "DemoABFrame.framework/Header/*.h"
   spec.vendored_frameworks = "DemoABFrame.framework"
 
   spec.exclude_files = "DemoABFrame/Exclude"
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "10.0"
 
 
 
