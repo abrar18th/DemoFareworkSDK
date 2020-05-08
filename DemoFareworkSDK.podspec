@@ -16,12 +16,13 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files = "DemoFareworkSDK.framework/Headers/*.h"
-    spec.public_header_files = "DemoFareworkSDK.framework/Headers/*.h"
+  spec.source_files = "DemoFareworkSDK.framework/Headers/*.{h,m.swift}"
+    spec.public_header_files = "DemoFareworkSDK.framework/Headers/*.{h,m.swift}"
 
 
-  #spec.source_files = "DemoFareworkSDK.framework/Headers/*.h"
-  #  spec.public_header_files = "DemoFareworkSDK.framework/Headers/*.h"
+
+  #spec.source_files = "DemoFareworkSDK.framework/Headers/*.{h,m.swift}"
+  #  spec.public_header_files = "DemoFareworkSDK.framework/Headers/*.{h,m.swift}"
   #  spec.vendored_frameworks = "DemoFareworkSDK.framework"
  
   spec.exclude_files = "DemoFareworkSDK/Exclude"
