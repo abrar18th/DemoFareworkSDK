@@ -15,7 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
 
-  spec.source_files       = "DemoFareworkSDK/*.{h,m,swift}"
+
+  spec.source_files       = "DemoFareworkSDK/Classes/**/*"
 
   #spec.source_files = "DemoFareworkSDK.framework/Headers/*.h"
   #  spec.public_header_files = "DemoFareworkSDK.framework/Headers/*.h"
