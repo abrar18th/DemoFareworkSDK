@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.swift_version = "4.2"
 
-  spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "v1.0.0" }
+  spec.source       = { :git => "https://github.com/abrar18th/DemoFareworkSDK.git", :tag => "#{spec.version}" }
 
 
   spec.source_files = "DemoFareworkSDK.framework/Headers/*.h"
