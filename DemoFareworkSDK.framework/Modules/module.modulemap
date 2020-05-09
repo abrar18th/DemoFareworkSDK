@@ -1,0 +1,11 @@
+framework module DemoFareworkSDK {
+  umbrella header "DemoFareworkSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DemoFareworkSDK.Swift {
+    header "DemoFareworkSDK-Swift.h"
+    requires objc
+}
